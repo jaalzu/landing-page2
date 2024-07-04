@@ -187,9 +187,12 @@ footer .col-1 {
 }
 footer .col-1 .logo {
   filter: invert(100%);
-  width: 55%;
+  max-width: 55%;
   height: 100%;
   margin-bottom: 2rem;
+}
+footer .col-1 img {
+  max-width: 100%;
 }
 footer .col-1 p {
   font-size: 0.85rem;
